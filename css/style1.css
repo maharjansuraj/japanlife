@@ -1,0 +1,92 @@
+body {
+width:100%;
+height:auto;
+}
+
+header {
+  width:98%;
+  background-color:#343A40;
+  border: 1px solid coral;
+  height: 100px;
+  padding-left: 5px;
+}
+
+h1 {
+  text-align:left;
+  font-size: 30px;
+  color:#AC8223;
+}
+
+h1 a {
+  text-decoration:none;
+  color:#AC8223;
+}
+
+h1 a:hover{
+  color:white;
+}
+
+nav {
+  text-align:left;
+}
+nav li{
+  float:right;
+  padding: 0 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color:white;
+}
+
+nav li a:hover{
+  color:#AC8223;
+}
+
+.leftone {
+  background-image: url("../img/1.png");/*<!--Ref: https://www.google.com/search?q=service+and+support+room&rlz=1C5CHFA_enJP876JP876&sxsrf=ALeKk03kwSFMXQ-_MaPuGKjDefK1eV7MuQ:1593507670204&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjgkITVlqnqAhWkNKYKHSrABRcQ_AUoAXoECAwQAw&biw=1359&bih=683#imgrc=SReIyc-ZJXgqPM -->:*/
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:32.7%;
+  height: 470px;
+  float:left;
+  color: coral;
+  background-color: lightgreen;
+  margin-right:3px;
+  padding: 80px 0 0 2px;
+  font-size: 20px;
+  overflow: scroll;
+}
+
+.centerone {
+  width:32.7%;
+  height:550px;
+  /* background-color: lightgreen; */
+  float:left;
+  margin-right:3px;
+}
+
+.rightone {
+  width:32.7%;
+  height:550px;
+  background-image: url("../img/blog2.jpg"); /*https://www.google.com/search?q=images+on+student+life+here+in+japan&rlz=1C5CHFA_enJP876JP876&sxsrf=ALeKk00Yv1_Ytctfb6AgiocTeaMMArNcGQ:1593509288491&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjSuNjYnKnqAhUPqpQKHXzHCEcQ_AUoAXoECAwQAw&biw=1359&bih=683#imgrc=rI5hlWmpRWfg1M*/
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:lightgreen;
+  float:left;
+}
+
+footer {
+  width:98%;
+  height: 300px;
+  border: 2px solid red;
+  text-align:center;
+  color: blue;
+  font-size: 20px;
+}

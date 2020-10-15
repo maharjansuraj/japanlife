@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="services">
+  <meta name="keywords" content="service, support">
+  <meta name="author" content="finalprojectgroup">
+<Title>Financial Aid</Title>
+  <link href="css/financialaid.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+  <header>
+    <h1> <a href="index.html">KCG/KCGI Student Support</a></h1>
+    <nav>
+      <ul>
+        <li><a href="financialaid.html"/>Financial Aid</a></li>
+
+        <li><a href="intledu.html"/>International Education Support</a></li>
+        <li><a href="health.html"/>Health Service</a></li>
+        <li><a href="harassment.html"/>Harassment Counselling</a></li>
+        <li><a href="student.html"/>Student Counselling</a></li>
+        <li><a href="others.html"/>Miscellaneous</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="main-body">
+    <div class="top">
+    </div>
+    <div class="left">
+      <ul>
+        <li><input class="button" type="button" value="Living Expense" onclick="livingExpense()"></li>
+        <li><input class="button" type="button" value="School Expense" onclick="schoolExpense()"></li>
+        <li><input class="button" type="button" value="Scholarship" onclick="scholarship()"></li>
+        <li><input class="button" type="button" value="Illness & Injuries" onclick="illnessInjuries()"></li>
+        <li><input class="button" type="button" value="Student Discounts" onclick="studentDiscounts()"></li>
+
+      </ul>
+    </div>
+    <div id="right">
+      <p id="paragraph"> The KCGI/KCG Student support provides various financial aid to internation students to make their study life easier.
+      The aid starting from living expenses to the fund for illeness and injuries has been provisioned. We intend to help all the international students across Japan irrespective of State.<br/> <img src="img/aid.jpg" height="250px" width="250px"/></p>
+    </div>
+
+  <div class="end">
+  <footer>
+    <p> contact: +8180-####-####. Email: support@studenthelp.com</p>
+  </footer>
+</div>
+</body>
+<script>
+function livingExpense(){
+  document.getElementById('paragraph').innerHTML="<h3> Living Expense</h3><p>Cost of living in Japan is the high. The average monthly expense (tuition fees not included) for typical Students is JPY 145,000. This will include an average rent of JPY 53,200 (for a single person)・JPY 103,800 (for family) and an average cost of food JPY 32,200 (for a single person)・JPY 59,500 (for family). <p>However, international students usually spend more on food due to the difference in the food available in Japan. Students who are accompanied by their family members should expect to pay approximately 1.5 to 1.6 times more in monthly living expenses.</p> <p>Please plan your budget carefully so that financial worry will not prevent you from studying.</p>";
+}
+
+function schoolExpense(){
+  document.getElementById('paragraph').innerHTML="<h3>School Expense</h3><p>Tuition fees in Japan are actually relatively affordable, especially when compared with those in the US and the UK. Fees for international students are fairly low and there are a number of scholarships that students can apply to for financial assistance. For example, fees at the high ranking University of Tokyo start at 485,900 yen (£3,520) for undergraduates.There is also a 248,500 yen (£1,800) admission fee. However, do not assume that the more elite universities will charge higher tuition fees as some lesser-known institutions are known to charge higher.</p><p> Another prestigious university, Kyoto University charges a much higher fee of 535,800 yen (£3,900), but it would be rare for fees to exceed this. On top of tuition fees, students will also have to pay an admission fee which will usually be around 282,000 yen (£2,000). Tuition fees will vary between different universities so be sure to check the rates at the particular universities you are interested in.</p> ";
+  //Ref: https://www.timeshighereducation.com/student/advice/cost-studying-university-japan
+}
+function scholarship(){
+  document.getElementById('paragraph').innerHTML="<h3> Scholariship for Prospective Students</h3><p> There are a variety of scholarships available for students who wish to study in Universities in Japan. Some scholarships should be applied for prior to arrival in Japan while others can be applied for after arriving in Japan. For detailed information on scholarships for prospective students, please see the pages below.</p> <p><li><a href='https://www.jasso.go.jp/en/study_j/scholarships/brochure.html'/>Jasso Scholarship</a></li><li><a href='https://www.mext.go.jp/en/policy/education/highered/title02/detail02/sdetail02/1373897.htm'/>Japanese Government(MEXT) Scholarship</a></li><li><a href='https://www.scholars4dev.com/category/country/asia-scholarships/japan-scholarships/'/>All available scholarship programs</a></li></p>";
+}
+
+function illnessInjuries(){
+  document.getElementById('paragraph').innerHTML="<h3>Illness & Injuries</h3><p>This assistance is provided mainly in the form of condolence money and emergency loans. Condolence money depending on the cases is paid to students in times of trouble, such as those suffering losses from a disaster or accident, or illness/injury requiring hospitalization for a month or more.</p> <p> Further, emergency loans are available to students having difficulty making ends meet, such as those who do not qualify for school fee exemptions but have trouble paying those fees, and those who experience losses from a disaster or accident that severely strain their finances. </p>Applications for assistance are taken by the administrative office of Faculty/Graduate School.</p>";
+}
+function studentDiscounts(){
+  document.getElementById('paragraph').innerHTML="<h3>Student Discount</h3><p>Student Discounts can be provided for the public service attainment across Japan. Below are the services students can avail:</p> <p><ol> <li> Student Commuter Certificate</li><li> Student Travel Discount Certificate</li><li>Student Group Travel Discounts</li><li>Discounts at Selected Museums</li></ol</p> ";
+}
+</script>
+
+<!-- https://www.u-tokyo.ac.jp/adm/inbound/en/index.html?fbclid=IwAR1Sf93Jx5O4sBXNzFiAT4C7E1-Z1rE6iDGA_PAyaRbRV8uvi7YSfux_ebA -->
+</html>
